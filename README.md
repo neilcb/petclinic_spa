@@ -22,8 +22,8 @@ You can find the most recent version of this guide [here](https://github.com/fac
 - A: Moderate since I've only been exposed to react for small Poc's
 - Q: How did you feel about the exercise itself? (1 lowest, 10 highest—awesome way to assess coding ability)
 - A: 5, since I'm more used to Spring MVC and bootstrap/css
-- A:How do you feel about coding an exercise as a step in the interview process?  (1 lowest, 10 highest—awesome way to assess coding ability)
-- Q: 7
+- Q:How do you feel about coding an exercise as a step in the interview process?  (1 lowest, 10 highest—awesome way to assess coding ability)
+- A: 7
 - Q: What would you change in the exercise and/or process?
 - A:  I felt this was a fun excersise and really usefull in general, i really like React now. 
     Since the exercise was more front end specific, maybe give the develop more options, such as, create a SPA app or Spring     MVC, etc. 
