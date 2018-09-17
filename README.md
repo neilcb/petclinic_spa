@@ -18,7 +18,6 @@ You can find the most recent version of this guide [here](https://github.com/fac
 ```
 
 
-
 ## Q and A
 
 - Q: Exercise Difficulty: Easy, Moderate, Difficult, Very Difficult
