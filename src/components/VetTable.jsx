@@ -34,13 +34,10 @@ export default class VetTable extends React.Component {
   
   async componentDidMount() {
       const response = await fetch('/petclinic/api/vets');
-      var check = JSON.stringify(response)
-      if(check !== "{}") {
+      
           const body = await response.json();
           this.setState({ vets: body, isLoading: false });
-      } else {
-          console.log("server not responding")
-      }
+      
       
     }
   

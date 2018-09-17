@@ -37,12 +37,10 @@ export default class OwnerTable extends React.Component {
       
       
       var check = JSON.stringify(response)
-      if(check !== "{}") {
+     
           const body = await response.json();
           this.setState({ owners: body, isLoading: false })
-      } else {
-          console.log("server not responding")
-      }
+     
      ;
       
     }
