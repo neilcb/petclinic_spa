@@ -3,6 +3,35 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 Below you will find some information on how to perform common tasks.<br>
 You can find the most recent version of this guide [here](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md).
 
+
+
+## Running petclinic-spa locally
+```
+	git clone https://github.com/neilcb/petclinic-spa.git
+	cd petclicnic-spa
+	npm start or yarn start
+	
+	for the complete application to work you must run the spring-petclinic app locally or change the proxy config 
+	in package.json to your prefered server host/port
+	https://github.com/spring-petclinic/spring-petclinic-rest.git
+    
+```
+
+
+
+## Q and A
+
+- Q: Exercise Difficulty: Easy, Moderate, Difficult, Very Difficult
+- A: Moderate since I've only been exposed to react for small Poc's
+- Q: How did you feel about the exercise itself? (1 lowest, 10 highest—awesome way to assess coding ability)
+- A: 5, since I'm more used to Spring MVC and bootstrap/css
+- Q:How do you feel about coding an exercise as a step in the interview process?  (1 lowest, 10 highest—awesome way to assess coding ability)
+- A: 7
+- Q: What would you change in the exercise and/or process?
+- A:  I felt this was a fun excersise and really enjoyed using React. 
+    Since the exercise was more front end specific, maybe give the develop more options, such as, create a SPA app or Spring     MVC, etc. 
+
+
 ## Table of Contents
 
 - [Updating to New Releases](#updating-to-new-releases)

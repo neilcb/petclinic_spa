@@ -34,8 +34,16 @@ export default class OwnerTable extends React.Component {
   
   async componentDidMount() {
       const response = await fetch('/petclinic/api/owners');
-      const body = await response.json();
-      this.setState({ owners: body, isLoading: false });
+      
+      
+      var check = JSON.stringify(response)
+      if(check !== "{}") {
+          const body = await response.json();
+          this.setState({ owners: body, isLoading: false })
+      } else {
+          console.log("server not responding")
+      }
+     ;
       
     }
   
@@ -53,7 +61,7 @@ export default class OwnerTable extends React.Component {
     var spec;
 
     if (isLoading) {
-        return <p>Loading...</p>;
+        return <p>Loading...please make sure rest server is up</p>;
     }
     return (
        

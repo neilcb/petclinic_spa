@@ -21,7 +21,7 @@ from 'reactstrap';
 import classnames from 'classnames';
 import ListRender from './ListRender'
 
-export default class AddEditVet extends React.Component {
+export default class VetTable extends React.Component {
     
   state = {
       isLoading: true,
@@ -34,8 +34,13 @@ export default class AddEditVet extends React.Component {
   
   async componentDidMount() {
       const response = await fetch('/petclinic/api/vets');
-      const body = await response.json();
-      this.setState({ vets: body, isLoading: false });
+      var check = JSON.stringify(response)
+      if(check !== "{}") {
+          const body = await response.json();
+          this.setState({ vets: body, isLoading: false });
+      } else {
+          console.log("server not responding")
+      }
       
     }
   
@@ -53,7 +58,7 @@ export default class AddEditVet extends React.Component {
     var spec;
 
     if (isLoading) {
-        return <p>Loading...</p>;
+        return <p>Loading...please make sure spring server is up</p>;
     }
     return (
        
