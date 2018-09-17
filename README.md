@@ -18,8 +18,8 @@ You can find the most recent version of this guide [here](https://github.com/fac
 
 ## Q and A
 
-Q: Exercise Difficulty: Easy, Moderate, Difficult, Very Difficult
-A: Moderate since I've only been exposed to react for small Poc's
+- Q: Exercise Difficulty: Easy, Moderate, Difficult, Very Difficult
+- A: Moderate since I've only been exposed to react for small Poc's
 Q: How did you feel about the exercise itself? (1 lowest, 10 highest—awesome way to assess coding ability)
 A: 5, since I'm more used to Spring MVC and bootstrap/css
 A:How do you feel about coding an exercise as a step in the interview process?  (1 lowest, 10 highest—awesome way to assess coding ability)
