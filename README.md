@@ -28,7 +28,7 @@ You can find the most recent version of this guide [here](https://github.com/fac
 - A: 7
 - Q: What would you change in the exercise and/or process?
 - A:  I felt this was a fun excersise and really enjoyed using React. 
-    Since the exercise was more front end specific, maybe give the develop more options, such as, create a SPA app or Spring     MVC, etc. 
+    Since the exercise was more front end specific, maybe give the developer more options, such as, create a SPA app or Spring     MVC, etc. 
 
 
 ## Table of Contents
